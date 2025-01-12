@@ -92,7 +92,7 @@ if submit_button:
     input_data = input_data[feature_names]
 
     # Load the model
-    model_filename = 'logistic_model.pkl'
+    model_filename = 'svm_model_diabetes.pkl'
     try:
         with open(model_filename, 'rb') as file:
             model = pickle.load(file)
